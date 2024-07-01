@@ -32,6 +32,7 @@ To install and run the Crorepati App locally, follow these steps:
 2. *Compile and Run:*
    
    javac Main.java
+   
    java Main
    
 
