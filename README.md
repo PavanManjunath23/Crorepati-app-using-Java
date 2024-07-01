@@ -12,23 +12,15 @@ The Crorepati App is a Java-based interactive quiz game inspired by popular tele
 
 ### 1. Encapsulation
 Encapsulation is fundamental in organizing the app's structure and ensuring data security. Key aspects include:
-- *Private Variables:* Instance variables like questionText, correctAnswer, and difficultyLevel are encapsulated within question classes.
-- *Getter and Setter Methods:* Public methods ensure controlled access to encapsulated data, maintaining data integrity and security.
 
 ### 2. Inheritance
 Inheritance is leveraged to establish a hierarchical relationship among different question types:
-- *Base Question Class:* Question serves as the base class with common attributes and methods.
-- *Derived Classes:* MultipleChoiceQuestion and TrueFalseQuestion inherit from Question, inheriting properties and behaviors while allowing for specialization.
 
 ### 3. Polymorphism
 Polymorphism is demonstrated through method overriding and dynamic method binding:
-- *Polymorphic Methods:* The displayQuestion() method in each question type class behaves uniquely based on its specific implementation.
-- *Interface Implementation:* Implementing interfaces such as QuizQuestion ensures flexibility and interchangeability of question types.
 
 ### 4. Abstraction
 Abstraction simplifies the complexity of underlying operations, focusing on essential functionalities:
-- *GameEngine Abstraction:* GameEngine abstracts complex game logic into manageable components like startGame() and answerQuestion().
-- *User Interface Abstraction:* Interfaces like UserInterface provide a streamlined experience for interacting with game functionalities.
 
 ## Installation
 To install and run the Crorepati App locally, follow these steps:
